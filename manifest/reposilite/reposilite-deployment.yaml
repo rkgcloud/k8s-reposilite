@@ -21,7 +21,7 @@ spec:
               value: -Xmx64M
             - name: REPOSILITE_OPTS
               value: --port 8080 --token admin:secret
-          image: dzikoysk/reposilite:3.0.0-rc.4
+          image: dzikoysk/reposilite:3.0.0
           name: reposilite
           ports:
             - containerPort: 8080
